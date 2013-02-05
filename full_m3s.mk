@@ -445,3 +445,7 @@ PRODUCT_COPY_FILES +=												\
 #    $(LOCAL_PATH)/prebuilt/lib/libgemini.so:system/lib/libgemini.so				    \
 #    $(LOCAL_PATH)/prebuilt/lib/lib_LG_fastaf.so:system/lib/lib_LG_fastaf.so
 
+# Wifi.. maybe..
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/lib/modules/wlan.ko:system/lib/modules/wlan.ko
+
